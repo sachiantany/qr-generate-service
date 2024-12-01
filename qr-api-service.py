@@ -84,7 +84,7 @@ if __name__ == '__main__':
     app_name = "QR Code Service"
     version = "1.0.0"
     port = int(os.getenv("PORT", 5000))  # Default port is 5000
-    host = os.getenv("HOST", "127.0.0.1")  # Default host
+    host = os.getenv("HOST", "0.0.0.0")  # Default host
 
     # Print custom design on startup
     print(f"""
